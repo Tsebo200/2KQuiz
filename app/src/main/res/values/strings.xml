@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">2KQuiz</string>
+    <string name="app_name">2Kaying</string>
+    <string name="app_description">This app is dope</string>
+    <string name="welcome_text">A fun quiz to test your knowledge on Y2K culture</string>
+    <string name="setting_text">SETTINGS</string>
+    <string name="home_heading">HOME</string>
+    <string name="play_butt_text">PLAY!</string>
+    <string name="home_message">Please enter your nickname to keep track of your score</string>
+    <string name="choose_category">Choose Category</string>
+    <string name="how_to_play">How to Play</string>
 </resources>
