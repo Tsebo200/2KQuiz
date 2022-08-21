@@ -12,7 +12,8 @@
 
     <color name="BackgroundColor">#052526</color>
     <color name="PrimaryColor1">#085456</color>
-    <color name="PrimaryColor2">#0F9093</color>
+    <color name="PrimaryColor2">#117678</color>
+    <color name="PrimaryColor3">#0F9093</color>
     <color name="SecondaryColor">#D1E9E3</color>
     <color name="TertiaryColor">#EBFFFA</color>
     <color name="Accent">#FECB9B</color>
