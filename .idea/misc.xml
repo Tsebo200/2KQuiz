@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/buttons.xml" value="0.186" />
         <entry key="app/src/main/res/drawable/how_to_play_button.xml" value="0.204" />
         <entry key="app/src/main/res/drawable/ic_help.xml" value="0.1785" />
         <entry key="app/src/main/res/drawable/ic_saitama_face_background.xml" value="0.1" />
