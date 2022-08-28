@@ -45,7 +45,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/PrimaryColor1"
-            android:padding="180dp">
+            android:padding="190dp">
         </LinearLayout>
 
         <!--        Icon Avatar-->

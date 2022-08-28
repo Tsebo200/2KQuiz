@@ -42,7 +42,7 @@ class HomeActivity : AppCompatActivity() {
                 Log.i("Clicked", "$nickname")
             }
 
-            Log.i("Clicked", "$nickname")
+//            Log.i("Clicked", "$nickname")
 
             val intent = Intent(this, QuestionActivity::class.java)
 //            If you want top parse data
