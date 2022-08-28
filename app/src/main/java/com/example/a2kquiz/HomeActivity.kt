@@ -31,8 +31,7 @@ class HomeActivity : AppCompatActivity() {
 //                var nicknameModal = Toast.makeText(this, "Oops You Forgot To Enter Your Nickname", Toast.LENGTH_LONG).show()
                 Snackbar.make(it, "Please enter your Nickname", Snackbar.LENGTH_LONG)
                     .setAction("ok", {
-
-                })
+                    })
                     .show()
             }else{
                 //TODO: NAvigate next activity
