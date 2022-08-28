@@ -7,29 +7,112 @@
     android:orientation="vertical"
     android:gravity="center_horizontal"
     tools:context=".QuestionActivity"
-    android:background="@color/BackgroundColor"
-    android:padding="20dp">
+    android:background="@color/question_page_bg">
 
-<!--    <LinearLayout-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="40dp">-->
-    <TextView
-        android:id="@+id/tv_question_text"
-        android:textColor="@color/Accent"
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp">
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="750dp"
+        android:background="@drawable/question_bg"
+        android:layout_marginTop="100dp">
+    </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="This is my question activity"
-        android:textAlignment="center"
-        android:fontFamily="@font/arial_rounded_mt_bold"
-        android:textSize="20sp"
-        android:layout_gravity="center"/>
+        android:orientation="horizontal"
+        android:layout_marginTop="-725dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/returnui"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/SecondaryColor"
+            android:paddingRight="60dp"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:textSize="23sp"
+            android:fontFamily="@font/arial_rounded_mt_bold"
+            android:text="4">
+        </TextView>
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="-30dp"
+        android:background="@drawable/points_modal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textColor="@color/question_page_bg"
+            android:fontFamily="@font/arial_rounded_mt_bold"
+            android:text="40">
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
 
     <TextView
-        android:id="@+id/et_Nickname"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:fontFamily="@font/arial_rounded"
+        android:textColor="@color/Accent"
+        android:textSize="25sp"
+        android:text="Jost">
     </TextView>
+    </LinearLayout>
+
+<!--    The major container-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="660dp"
+        android:layout_marginTop="70dp">
+
+
+        <TextView
+            android:id="@+id/tv_question_text"
+            android:textColor="@color/SecondaryColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This is my question activity"
+            android:textAlignment="center"
+            android:fontFamily="@font/arial_rounded_mt_bold"
+            android:textSize="20sp"
+            android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/et_Nickname"
+                android:layout_width="wrap_content"
+                android:text="300sp"
+                android:layout_height="wrap_content">
+            </TextView>
+    </LinearLayout>
 
 
 </LinearLayout>

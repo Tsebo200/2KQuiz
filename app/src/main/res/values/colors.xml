@@ -17,5 +17,7 @@
     <color name="SecondaryColor">#D1E9E3</color>
     <color name="TertiaryColor">#EBFFFA</color>
     <color name="Accent">#FECB9B</color>
+    <color name="question_bg">#012021</color>
+    <color name="question_page_bg">#001818</color>
 
 </resources>
