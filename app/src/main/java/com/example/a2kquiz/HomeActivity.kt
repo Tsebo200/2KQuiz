@@ -1,5 +1,6 @@
 package com.example.a2kquiz
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -43,6 +44,12 @@ class HomeActivity : AppCompatActivity() {
 
             Log.i("Clicked", "$nickname")
 
+            val intent = Intent(this, QuestionActivity::class.java)
+//            If you want top parse data
+            intent.putExtra("nickname", nickname.toString())
+
+            startActivity(intent)
+//            finish()//close current Activity From back stack
         }
     }
 }

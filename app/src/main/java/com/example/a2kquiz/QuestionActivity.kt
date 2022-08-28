@@ -16,12 +16,20 @@ class QuestionActivity : AppCompatActivity() {
 
         setContentView(binding.root)
 
+        //Get the extra from intent (Push/Parse the nickname to an activity)
+        val nickname = intent.getStringExtra("nickname").toString()
+
+
         //Call for all my questions
         var questions = getAllQuestions()
         Log.i("Question Count:", "${questions[0].questionText}")
 
-        binding.tvQuestionText.setText(questions[3].questionText)
 
+            binding.tvQuestionText.text = "Greetings ${nickname}! Let's see how much of a 2kayer you are: ${questions[1].questionText}"
+        //Not Needed any more but just incase
 //        R.id.tv_question_text.setText(questions[0].questionText)
+
+    // Uncommment this later if run with errors
+//        binding.tvQuestionText.setText(questions[3].questionText)
     }
 }
