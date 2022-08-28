@@ -19,7 +19,7 @@
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:src="@drawable/returnui"
-            android:layout_marginTop="30px"/>
+            android:layout_marginTop="10dp"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -87,6 +87,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:cardCornerRadius="10dp"
+                android:inputType="textPersonName"
                 android:hint="@string/your_nickname"/>
 
         </com.google.android.material.textfield.TextInputLayout>

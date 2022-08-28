@@ -3,8 +3,6 @@ package com.example.a2kquiz
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import android.widget.Toast
-import com.example.a2kquiz.R
 import com.example.a2kquiz.databinding.ActivityHomeBinding
 import com.google.android.material.snackbar.Snackbar
 
@@ -24,7 +22,7 @@ class HomeActivity : AppCompatActivity() {
 
 
 
-            var nickname = home.etNickname.text
+            val nickname = home.etNickname.text
 
             //Check if nickname has been added
             if(nickname.toString() == ""){
@@ -33,14 +31,13 @@ class HomeActivity : AppCompatActivity() {
 
                 //This is the Snackbar
                 Snackbar.make(it, "Oops You Forgot To Enter Your Nickname", Snackbar.LENGTH_LONG)
-                    .setAction("ok", {
-                    })
+                    .setAction("ok", { })
                     .show()
 
                 //Adding Validation
                 home.etNickname.error = "Forgot Nickname"
             }else{
-                //TODO: NAvigate next activity
+                //TODO: Navigate next activity
                 Log.i("Clicked", "$nickname")
             }
 
