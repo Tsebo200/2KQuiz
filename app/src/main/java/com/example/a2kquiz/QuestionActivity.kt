@@ -24,8 +24,8 @@ class QuestionActivity : AppCompatActivity() {
         var questions = getAllQuestions()
         Log.i("Question Count:", "${questions[0].questionText}")
 
-
-            binding.tvQuestionText.text = "Greetings ${nickname}! Let's see how much of a 2kayer you are: ${questions[1].questionText}"
+        binding.tvQuestionText.text = "Greetings ${nickname}! Let's see how much of a 2kayer you are:" + "${questions[1].questionText}"
+//            binding.tvQuestionText.text = "${questions[1].questionText}"
         //Not Needed any more but just incase
 //        R.id.tv_question_text.setText(questions[0].questionText)
 

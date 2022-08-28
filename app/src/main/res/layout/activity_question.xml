@@ -15,7 +15,7 @@
 <!--        android:layout_height="40dp">-->
     <TextView
         android:id="@+id/tv_question_text"
-        android:textColor=""
+        android:textColor="@color/Accent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="This is my question activity"
