@@ -12,13 +12,14 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_marginTop="-150dp">
 
         <ImageView
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:src="@drawable/returnui"
-            android:layout_marginTop="0px"/>
+            android:layout_marginTop="30px"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -30,7 +31,6 @@
             android:paddingStart="70dp"
             android:paddingEnd="70dp"
             android:layout_gravity="center"
-            android:layout_marginTop="0sp"
             android:textSize="40sp"/>
     </LinearLayout>
 
@@ -71,7 +71,7 @@
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="300dp"
-            android:layout_height="50dp"
+            android:layout_height="70dp"
             android:layout_marginStart="17dp"
             android:layout_marginTop="220dp"
             android:background="@color/TertiaryColor"
@@ -83,6 +83,7 @@
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_Nickname"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:cardCornerRadius="10dp"
@@ -90,13 +91,14 @@
 
         </com.google.android.material.textfield.TextInputLayout>
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_Enter"
             android:layout_width="130dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="100dp"
             android:layout_marginTop="300dp"
             android:padding="20dp"
-            app:cornerRadius="50dp"
-            android:background="@color/BackgroundColor"/>
+            app:cornerRadius="100dp"
+            android:background="@color/BackgroundColor" />
 
     </com.google.android.material.card.MaterialCardView>
 
