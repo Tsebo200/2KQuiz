@@ -28,11 +28,17 @@ class HomeActivity : AppCompatActivity() {
 
             //Check if nickname has been added
             if(nickname.toString() == ""){
+                //This is the Toast
 //                var nicknameModal = Toast.makeText(this, "Oops You Forgot To Enter Your Nickname", Toast.LENGTH_LONG).show()
-                Snackbar.make(it, "Please enter your Nickname", Snackbar.LENGTH_LONG)
+
+                //This is the Snackbar
+                Snackbar.make(it, "Oops You Forgot To Enter Your Nickname", Snackbar.LENGTH_LONG)
                     .setAction("ok", {
                     })
                     .show()
+
+                //Adding Validation
+                home.etNickname.error = "Forgot Nickname"
             }else{
                 //TODO: NAvigate next activity
                 Log.i("Clicked", "$nickname")
