@@ -103,7 +103,7 @@
             android:layout_marginTop="300dp"
             android:padding="20dp"
             app:cornerRadius="100dp"
-            android:background="@color/BackgroundColor" />
+            android:background="@drawable/enter_btn" />
 
     </com.google.android.material.card.MaterialCardView>
 
