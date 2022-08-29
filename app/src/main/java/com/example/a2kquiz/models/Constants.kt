@@ -32,6 +32,37 @@ object Constants {
 //            Answer = optionTwo
         )
 
+        val Marvque3 = Question(
+            3,
+            "What rare metal is abundant in Wakanda?",
+            R.drawable.ic_help,
+            "Vibranium",
+            "Gold",
+            "Unobtaniu",
+            "Nothing"
+//            Answer = optionOne
+        )
+        val Marvque4 = Question(
+            4,
+            "What is Thor’s hammer called?",
+            R.drawable.ic_help,
+            "Majinol",
+            "Mjolnir",
+            "Marigol",
+            "Storm breaker"
+//            Answer = optionTwo
+        )
+        val Marvque5 = Question(
+            5,
+            "What was the first MCU movie called?",
+            R.drawable.ic_help,
+            "Spider-Man",
+            "Iron Man",
+            "BatMan",
+            "Captain America"
+//            Answer = optionTwo
+        )
+
         //TODO: Add Anime Questions
         val Anique1 = Question(
             1,
@@ -53,6 +84,43 @@ object Constants {
             "Five",
             "Three"
 //            Answer = optionFour/optionOne
+        )
+
+        val Anique3 = Question(
+            3,
+            "What is the name of this Anime?",
+            //Promotional picture of the Anime (Initial D)
+            R.drawable.ic_help,
+            "Tomodachi Game",
+            "No Gmae No life",
+            "Inital D",
+            "Naruto"
+
+//            Answer = optionThree
+        )
+
+        val Anique4 = Question(
+            4,
+            "Which Anime is part of the big 3?",
+            //Promotional picture of the Anime (Initial D)
+            R.drawable.ic_help,
+            "DBZ",
+            "Demon Slayer",
+            "Bleach",
+            "JoJo"
+//            Answer = optionThree
+        )
+
+        val Anique5 = Question(
+            5,
+            "Which manga had the most hyped anime Adaptation ever?",
+            //Promotional picture of the Anime (Initial D)
+            R.drawable.ic_help,
+            "Tokyo Ghoul",
+            "ChainSaw Man",
+            "Jujutsu Kaisen",
+            "Boruto"
+//            Answer = optionTwo
         )
 
         //TODO: Add Formula One Questions
