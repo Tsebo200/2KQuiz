@@ -54,7 +54,6 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_marginStart="117dp"
-            android:background="@drawable/user_avatar"
             android:layout_marginTop="20dp">
         </LinearLayout>
 
@@ -97,13 +96,16 @@
         </com.google.android.material.textfield.TextInputLayout>
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_Enter"
-            android:layout_width="130dp"
+            android:layout_width="250dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="100dp"
+            android:layout_marginStart="40dp"
             android:layout_marginTop="300dp"
             android:padding="20dp"
-            app:cornerRadius="100dp"
-            android:background="@drawable/enter_btn" />
+            android:text="Enter"
+            android:fontFamily="@font/arial_rounded_mt_bold"
+            android:textColor="@color/Accent"
+            android:textSize="17sp"
+            app:cornerRadius="100dp"/>
 
     </com.google.android.material.card.MaterialCardView>
 
