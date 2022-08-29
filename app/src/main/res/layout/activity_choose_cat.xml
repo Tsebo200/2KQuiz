@@ -45,6 +45,15 @@
             android:layout_gravity="center">
         </LinearLayout>
 
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="370dp"
+            android:background="@drawable/categories_block"
+            android:padding="150dp">
+        </LinearLayout>
+
 <!--<androidx.cardview.widget.CardView-->
 <!--    android:layout_width="match_parent"-->
 <!--    android:layout_height="wrap_content">-->
@@ -54,26 +63,15 @@
             android:background="@drawable/categories_block"
             android:layout_marginTop="15dp"
             android:layout_gravity="center_horizontal"
-            android:padding="170dp">
+            android:padding="150dp">
         </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="300dp"
-            android:layout_height="wrap_content"
-            android:background="@drawable/categories_block"
-            android:layout_marginTop="370dp"
-            android:layout_gravity="center_horizontal"
-            android:padding="170dp">
-        </LinearLayout>
-
 
 
         <LinearLayout
             android:layout_width="100dp"
             android:layout_height="100dp"
              android:layout_marginTop="40dp"
-            android:layout_marginStart="125dp"
-            android:background="@drawable/f1">
+            android:layout_marginStart="125dp">
         </LinearLayout>
 
         <TextView
@@ -103,8 +101,8 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_marginTop="400dp"
-            android:layout_marginStart="125dp"
-            android:background="@drawable/f1">
+            android:background="@drawable/ferrari"
+            android:layout_marginStart="125dp">
         </LinearLayout>
 
         <TextView

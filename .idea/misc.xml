@@ -18,7 +18,8 @@
         <entry key="app/src/main/res/drawable/question_bg.xml" value="0.186" />
         <entry key="app/src/main/res/drawable/user_avatar.xml" value="0.186" />
         <entry key="app/src/main/res/font/typefaces.xml" value="0.3125" />
-        <entry key="app/src/main/res/layout/activity_choose_cat.xml" value="0.23463203463203464" />
+        <entry key="app/src/main/res/layout/activity_choose_cat.xml" value="0.271942138671875" />
+        <entry key="app/src/main/res/layout/activity_choose_sport.xml" value="0.22587719298245615" />
         <entry key="app/src/main/res/layout/activity_home.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.2682291666666667" />
         <entry key="app/src/main/res/layout/activity_question.xml" value="0.23463203463203464" />
