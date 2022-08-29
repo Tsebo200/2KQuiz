@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.widget.Toast
 import com.example.a2kquiz.databinding.ActivityHomeBinding
 import com.google.android.material.snackbar.Snackbar
 
@@ -30,25 +31,31 @@ class HomeActivity : AppCompatActivity() {
                 //This is the Toast
 //                var nicknameModal = Toast.makeText(this, "Oops You Forgot To Enter Your Nickname", Toast.LENGTH_LONG).show()
 
-                //This is the Snackbar
+//                This is the Snackbar
                 Snackbar.make(it, "Oops You Forgot To Enter Your Nickname", Snackbar.LENGTH_LONG)
-                    .setAction("ok", { })
-                    .show()
+                    .setAction("ok", { }).show()
 
                 //Adding Validation
                 home.etNickname.error = "Forgot Nickname"
             }else{
                 //TODO: Navigate next activity
                 Log.i("Clicked", "$nickname")
+
+                val intent = Intent(this, QuestionActivity::class.java)
+
+               intent.putExtra("nickname", nickname.toString())
+
+                startActivity(intent)
+//            If you want top parse data
+
             }
 
-//            Log.i("Clicked", "$nickname")
 
-            val intent = Intent(this, QuestionActivity::class.java)
-//            If you want top parse data
-            intent.putExtra("nickname", nickname.toString())
 
-            startActivity(intent)
+
+
+
+
 //            finish()//close current Activity From back stack
         }
     }
