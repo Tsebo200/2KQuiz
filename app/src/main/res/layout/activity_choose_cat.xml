@@ -61,17 +61,18 @@
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:background="@drawable/categories_block"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="25dp"
             android:layout_gravity="center_horizontal"
             android:padding="150dp">
         </LinearLayout>
 
 
         <LinearLayout
-            android:layout_width="100dp"
+            android:layout_width="75dp"
             android:layout_height="100dp"
-             android:layout_marginTop="40dp"
-            android:layout_marginStart="125dp">
+            android:layout_marginTop="40dp"
+            android:background="@drawable/groot"
+            android:layout_marginStart="135dp">
         </LinearLayout>
 
         <TextView

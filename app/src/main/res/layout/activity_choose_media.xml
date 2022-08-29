@@ -1,9 +1,132 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ChooseMediaActivity">
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    android:background="@color/question_page_bg"
+    android:padding="20dp"
+    tools:context=".ChooseCatActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/returnui"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:fontFamily="@font/arial_rounded_mt_bold"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:text="Choose Media">
+        </TextView>
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="25dp"
+        android:layout_marginTop="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/PrimaryColor1"
+            android:padding="400dp"
+            android:layout_gravity="center">
+        </LinearLayout>
+
+        <!--<androidx.cardview.widget.CardView-->
+        <!--    android:layout_width="match_parent"-->
+        <!--    android:layout_height="wrap_content">-->
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/categories_block"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center_horizontal"
+            android:padding="170dp">
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/categories_block"
+            android:layout_marginTop="370dp"
+            android:layout_gravity="center_horizontal"
+            android:padding="170dp">
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/anime_logo">
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Anime"
+            android:layout_gravity="center_horizontal"
+            android:textSize="25sp"
+            android:layout_marginTop="150dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/arial_rounded">
+        </TextView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="510dp"
+            android:fontFamily="@font/arial_rounded"
+            android:text="MCU"
+            android:textColor="@color/white"
+            android:textSize="25sp"></TextView>
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="400dp"
+            android:layout_marginStart="100dp"
+            android:background="@drawable/marvel_logo">
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textColor="@color/Accent"
+            android:fontFamily="@font/arial_rounded"
+            android:layout_marginTop="190dp"
+            android:text="5 Questions">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textColor="@color/Accent"
+            android:fontFamily="@font/arial_rounded"
+            android:layout_marginTop="550dp"
+            android:text="5 Questions">
+        </TextView>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
