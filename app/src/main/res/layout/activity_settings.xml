@@ -1,17 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/BackgroundColor"
-    android:gravity="center"
-    android:padding="30dp">
+    android:gravity="center_horizontal"
+    android:background="@color/question_page_bg">
 
-<!--    <LinearLayout-->
-<!--        android:layout_width=""-->
-<!--        android:layout_height=""-->
-    
-    
-    
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/returnui"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_marginLeft="-60dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/arial_rounded_mt_bold"
+        android:textAlignment="center"
+        android:textSize="31sp"
+        android:text="Settings"/>
+</LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="117dp"
+            android:background="@drawable/profile"
+            android:layout_marginTop="20dp">
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="750dp"
+        android:background="@drawable/question_bg"
+        android:layout_marginLeft="-210dp"
+        android:layout_marginTop="100dp">
+
+
+        <ImageView
+            android:id="@+id/img_lewis"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_marginTop="30dp">
+        </ImageView>
+    </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
 
