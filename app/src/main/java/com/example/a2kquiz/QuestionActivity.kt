@@ -1,5 +1,6 @@
 package com.example.a2kquiz
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -23,11 +24,25 @@ class QuestionActivity : AppCompatActivity() {
 
         //Call for all my questions
         var questions = getAllQuestions()
-        val currentQuestion = questions[5]
+        val currentQuestion = questions[1]
         Log.i("Question Count:", "${currentQuestion.questionText}")
 
         updateUI(currentQuestion, nickname)
 
+       //Do not really need a btnNext as I do not have one
+//        binding.btnNext.setOnclickListener{
+//
+//        }
+
+
+//        val intent = Intent(this, QuestionActivity::class.java)
+//        startActivity(intent)
+//        finish()
+
+
+
+        intent.putExtra("nickname", nickname)
+//        intent.putExtra("questionNumber", 1).toString()
 
 
 //        val currentQuestion = question[0]
@@ -36,15 +51,15 @@ class QuestionActivity : AppCompatActivity() {
 //        R.id.tv_question_text.setText(questions[0].questionText)
 
     // Uncommment this later if run with errors
-//        binding.tvQuestionText.setText(questions[3].questionText)
+//        binding.tvQuestionText.setText(questions[3].questionText)®
     }
 
 
     fun updateUI(currentQuestion: Question, nickname: String) {
         if(currentQuestion.id == 1){
-            binding.tvQuestionText.text = "Greetings ${nickname}! Let's see how much of a 2kayer you are:" + "  " + "${currentQuestion.questionText}"
+            binding.tvQuestionText.text = "Greetings ${nickname}! Let's see how much of a 2kayer you are:" + "\n" + "${currentQuestion.questionText}"
         } else {
-            binding.tvQuestionText.text = "${nickname}! Your Next Question is" + "  "  + "${currentQuestion.questionText}"
+            binding.tvQuestionText.text = "${nickname}! Your Next Question is" + "\n"  + "${currentQuestion.questionText}"
         }
 
         binding.mbAnswerOne.text = currentQuestion.optionOne
