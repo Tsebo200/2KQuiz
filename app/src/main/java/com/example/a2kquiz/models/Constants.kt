@@ -16,7 +16,7 @@ object Constants {
             optionOne = "Tom Holland",
             optionTwo = "Andrew Garfield",
             optionThree = "Toby Maguire",
-            optionFour = "All Of The Above",
+            optionFour = "All Of Them",
 //            Answer = optionFour
         )
 
@@ -66,8 +66,8 @@ object Constants {
         //TODO: Add Anime Questions
         val Anique1 = Question(
             1,
-            "Who killed the whole of the Uchiha Clan?",
-            R.drawable.ic_help,
+            "Who slaughtered the whole of the Uchiha Clan?",
+            R.drawable.uchiha_fan,
             "Naruto",
             "Itachi",
             "Sasuke",
@@ -114,8 +114,8 @@ object Constants {
         val Anique5 = Question(
             5,
             "Which manga had the most hyped anime Adaptation ever?",
-            //Promotional picture of the Anime (Initial D)
-            R.drawable.ic_help,
+            //Promotional picture of the Anime (Chainsaw Man)
+            R.drawable.chainsaw_man,
             "Tokyo Ghoul",
             "ChainSaw Man",
             "Jujutsu Kaisen",
@@ -126,14 +126,16 @@ object Constants {
         //TODO: Add Formula One Questions
         val Formque1 = Question(
             1,
-            "Lewis Hamilton has won 7 world championship titles?",
+            "How many world championship titles has Sir Lewis Hamilton won?",
             R.drawable.ic_help,
-            "True",
-            "False",
+            "6",
+            "5",
+            "8",
+            "7",
 
 //          Not using these options for this question
-            "Maybe",
-            "of Cousrse"
+//            "Maybe",
+//            "of Cousrse"
 //            Answer = optionOne
         )
 
@@ -163,10 +165,10 @@ object Constants {
             "What does DRS stand for?",
             //Must type this answer
             R.drawable.ic_help,
-            "Type",
-            "Type",
-            "Type",
-            "Type"
+            "Drag Reduction System",
+            "Drive Right Side",
+            "Delayed Reaction Syndrom:",
+            "Deaf Raver Syndrome"
 //            Answer = Drag Reduction System
         )
 
