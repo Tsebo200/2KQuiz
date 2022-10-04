@@ -45,10 +45,10 @@ object Constants {
         val Marvque4 = Question(
             4,
             "What is Thor’s hammer called?",
-            R.drawable.ic_help,
-            "Majinol",
-            "Mjolnir",
-            "Marigol",
+            R.drawable.mjolnir,
+            "Mäjinol",
+            "Mjölnir",
+            "Märigöl",
             "Storm breaker"
 //            Answer = optionTwo
         )
@@ -242,9 +242,24 @@ object Constants {
         //add question to array
         allQuestions.add(Marvque1)
         allQuestions.add(Marvque2)
+        allQuestions.add(Marvque3)
+        allQuestions.add(Marvque4)
+        allQuestions.add(Marvque5)
         allQuestions.add(Anique1)
+        allQuestions.add(Anique2)
+        allQuestions.add(Anique3)
+        allQuestions.add(Anique4)
+        allQuestions.add(Anique5)
         allQuestions.add(Formque1)
+        allQuestions.add(Formque2)
+        allQuestions.add(Formque3)
+        allQuestions.add(Formque4)
+        allQuestions.add(Formque5)
         allQuestions.add(NBAque1)
+        allQuestions.add(NBAque2)
+        allQuestions.add(NBAque3)
+        allQuestions.add(NBAque4)
+        allQuestions.add(NBAque5)
         //3. return data
         return allQuestions
 

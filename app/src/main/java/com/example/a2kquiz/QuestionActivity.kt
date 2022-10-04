@@ -22,9 +22,16 @@ class QuestionActivity : AppCompatActivity() {
 
         //Call for all my questions
         var questions = getAllQuestions()
-        Log.i("Question Count:", "${questions[0].questionText}")
+        val currentQuestion = questions[3]
+        Log.i("Question Count:", "${currentQuestion.questionText}")
 
-        binding.tvQuestionText.text = "Greetings ${nickname}! Let's see how much of a 2kayer you are:" + "${questions[1].questionText}"
+        binding.tvQuestionText.text = "Greetings ${nickname}! Let's see how much of a 2kayer you are:" + "${currentQuestion.questionText}"
+        binding.mbAnswerOne.text = currentQuestion.optionOne
+        binding.mbAnswerTwo.text = currentQuestion.optionTwo
+        binding.mbAnswerThree.text = currentQuestion.optionThree
+        binding.mbAnswerFour.text = currentQuestion.optionFour
+        binding.imgLewis.setImageResource(currentQuestion.icon)
+//        val currentQuestion = question[0]
 //            binding.tvQuestionText.text = "${questions[1].questionText}"
         //Not Needed any more but just incase
 //        R.id.tv_question_text.setText(questions[0].questionText)

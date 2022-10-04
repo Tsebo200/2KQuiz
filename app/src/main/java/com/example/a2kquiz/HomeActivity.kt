@@ -43,10 +43,11 @@ class HomeActivity : AppCompatActivity() {
 
                 val intent = Intent(this, QuestionActivity::class.java)
 
-               intent.putExtra("nickname", nickname.toString())
-
+                intent.putExtra("nickname", nickname.toString())
+                //finish()// close current activity when click the back button
                 startActivity(intent)
 //            If you want top parse data
+
 
             }
 

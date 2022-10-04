@@ -23,6 +23,7 @@
         android:layout_marginTop="100dp">
 
         <ImageView
+            android:id="@+id/img_lewis"
             android:layout_width="match_parent"
             android:layout_height="400dp"
             android:layout_marginTop="30dp"
@@ -121,10 +122,16 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:text="300sp"
-                android:layout_height="wrap_content">
-            </TextView>
+                android:layout_height="wrap_content"/>
+<!--            </TextView>-->
+<!--        <com.google.android.material.button.MaterialButtonToggleGroup-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent">-->
+<!--        </com.google.android.material.button.MaterialButtonToggleGroup>-->
+
 
       <com.google.android.material.button.MaterialButton
+          android:id="@+id/mb_answerOne"
           android:layout_width="150dp"
           android:layout_height="50dp"
           android:background="@drawable/points_modal"
@@ -133,17 +140,26 @@
           android:layout_marginStart="-360dp">
       </com.google.android.material.button.MaterialButton>
 
+
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/mb_answerTwo"
             android:layout_width="150dp"
             android:layout_height="50dp"
             android:background="@drawable/points_modal"
             app:cornerRadius="50dp"
+            android:text="Yes"
             android:layout_marginTop="300dp"
             android:layout_marginStart="20dp">
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="hi"-->
+<!--                android:textColor="@color/white"></TextView>-->
         </com.google.android.material.button.MaterialButton>
 
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/mb_answerThree"
             android:layout_width="150dp"
             android:layout_height="50dp"
             android:background="@drawable/points_modal"
@@ -153,6 +169,7 @@
         </com.google.android.material.button.MaterialButton>
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/mb_answerFour"
             android:layout_width="150dp"
             android:layout_height="50dp"
             android:background="@drawable/points_modal"
@@ -160,6 +177,7 @@
             android:layout_marginTop="365dp"
             android:layout_marginStart="20dp">
         </com.google.android.material.button.MaterialButton>
+
 
 
 

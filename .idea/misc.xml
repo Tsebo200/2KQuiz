@@ -23,10 +23,12 @@
         <entry key="app/src/main/res/layout/activity_choose_sport.xml" value="0.23771929824561402" />
         <entry key="app/src/main/res/layout/activity_home.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.2682291666666667" />
-        <entry key="app/src/main/res/layout/activity_question.xml" value="0.23463203463203464" />
+        <entry key="app/src/main/res/layout/activity_question.xml" value="0.17654723127035832" />
+        <entry key="app/src/main/res/layout/activity_settings.xml" value="0.23684210526315788" />
         <entry key="app/src/main/res/layout/fragment_first_.xml" value="0.2947916666666667" />
         <entry key="app/src/main/res/layout/fragment_second_.xml" value="0.2947916666666667" />
         <entry key="app/src/main/res/layout/home.xml" value="0.23771929824561402" />
+        <entry key="app/src/main/res/layout/splash.xml" value="0.1" />
         <entry key="app/src/main/res/layout/welcome.xml" value="0.2482456140350877" />
       </map>
     </option>
